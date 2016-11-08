@@ -1,0 +1,18 @@
+{
+  "name": "scubawhere_api_documentation",
+  "version": "1.0.0",
+  "description": "This_is_the_documentation_for_scubawheres_RMS_API__This_API_is_only_to_be_used_by_authorized_parties_with_valid_auth_tokens__Learn_about_scubawhere_httpwww_scubawhere_com_to_become_an_authorized_consumer_of_our_API",
+  "license": "Apache-2.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive"
+  },
+  "dependencies": {
+    "superagent": "1.7.1"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}
